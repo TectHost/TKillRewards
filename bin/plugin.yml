@@ -1,0 +1,7 @@
+main: minealex.tkillrewards.TKillRewards
+version: 1.0
+name: TKillRewards
+
+commands:
+  tkr:
+    description: Help command
