@@ -8,6 +8,8 @@ import org.bukkit.event.entity.EntityDeathEvent;
 import org.bukkit.event.entity.PlayerDeathEvent;
 import org.bukkit.plugin.java.JavaPlugin;
 
+import minealex.tkillrewards.commands.Commands;
+
 import java.util.List;
 
 public class TKillRewards extends JavaPlugin implements Listener {
@@ -16,6 +18,7 @@ public class TKillRewards extends JavaPlugin implements Listener {
     public void onEnable() {
         getServer().getPluginManager().registerEvents(this, this);
         saveDefaultConfig();
+        getCommand("tkr").setExecutor(new Commands(this, getConfig()));
     }
 
     @EventHandler

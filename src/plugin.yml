@@ -1,5 +1,5 @@
 main: minealex.tkillrewards.TKillRewards
-version: 1.0
+version: 1.1
 name: TKillRewards
 
 commands:

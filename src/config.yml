@@ -1,9 +1,14 @@
 kill_rewards:
   mob_kill_commands:
-    - "say ¡Has eliminado un mob!"
+    - "say You have deleted a mob!"
     - "give %player% diamond 1"
     - "eco give %player% 100"
   player_kill_commands:
-    - "say %player% ha eliminado a %victim%!"
+    - "say %player% has eliminated %victim%!"
     - "give %player% diamond 3"
     - "eco give %player% 200"
+    
+messages:
+  version-message: "&aThe version of %plugin% is %version%"
+  no-permission-message: "&cYou do not have permission to execute this command."
+    
