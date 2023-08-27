@@ -6,10 +6,10 @@ Simple kill rewards plugin
 - Player rewards
 
 # Commands
-None
+- /tkr version
 
 # Permissions
-None
+- tkr.version
 
 # Dependencies
 None
