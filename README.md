@@ -7,9 +7,11 @@ Simple kill rewards plugin
 
 # Commands
 - /tkr version
+- /tkr reload
 
 # Permissions
 - tkr.version
+- tkr.reload
 
 # Dependencies
 None
