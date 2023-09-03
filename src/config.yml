@@ -11,4 +11,5 @@ kill_rewards:
 messages:
   version-message: "&aThe version of %plugin% is %version%"
   no-permission-message: "&cYou do not have permission to execute this command."
+  reload-message: "&aReloaded."
     
